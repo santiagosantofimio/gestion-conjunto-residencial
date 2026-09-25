@@ -60,9 +60,9 @@ Diseñar e implementar en MySQL una base de datos relacional, normalizada hasta 
 | Entidad | Descripción |
 |---------|-------------|
 | torre | Edificio del conjunto |
-| apartamento | Unidad privada de una torre, con su área y coeficiente de copropiedad |
-| propietario | Persona dueña de uno o más apartamentos |
-| residente | Persona que habita un apartamento, sea propietario, arrendatario o familiar |
+| apartamento | Unidad privada de una torre, con su área, su coeficiente de copropiedad y su propietario |
+| persona | Propietario o residente del conjunto, registrado una sola vez aunque cumpla ambos papeles |
+| residente | Vínculo entre una persona y el apartamento que habita, como propietario, arrendatario o familiar |
 | vehiculo | Vehículo autorizado para ingresar, asociado a un apartamento |
 | concepto_cobro | Tipo de cobro: administración, cuota extraordinaria, multa, intereses de mora o uso de zona común |
 | cargo | Cobro de un concepto a un apartamento en un periodo, con su valor y fecha de vencimiento |

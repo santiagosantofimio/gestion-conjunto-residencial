@@ -30,7 +30,7 @@ mysql -u root -p < sql/03_consultas.sql
 ## Plan de trabajo
 
 - [x] Fase 1 — Propuesta: tema, problema, objetivos, alcance y entidades candidatas
-- [ ] Fase 2 — Análisis de requerimientos: usuarios, procesos y reglas de negocio
+- [x] Fase 2 — Análisis de requerimientos: usuarios, procesos y reglas de negocio
 - [ ] Fase 3 — Diseño conceptual: diagrama entidad-relación
 - [ ] Fase 4 — Normalización: planilla original, 1FN, 2FN y 3FN
 - [ ] Fase 5 — Diccionario de datos y modelo relacional
